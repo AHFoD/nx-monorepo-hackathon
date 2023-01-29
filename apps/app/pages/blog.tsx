@@ -1,7 +1,3 @@
-import Link from "next/link";
-import Router from "next/router";
-
-
 export function Index() {
   /*
    * Replace the elements below with your own.
@@ -13,9 +9,7 @@ export function Index() {
       <div className="container">
         <div id="welcome">
           <h1>
-            <span> Hello there, did you know there's currently ... million of cars in Malaysia </span>
-            Let's get to know more about car
-            {/* Welcome app 👋 */}
+            <span> Check jap betul ke </span>
           </h1>
         </div>
 
@@ -51,7 +45,10 @@ export function Index() {
           </div>
         </div>
 
-        <div id="middle-content">
+        
+        
+
+        <div id="full-content">
           <div id="learning-materials" className="rounded shadow">
             <h2>Learning materials</h2>
             <a
@@ -198,10 +195,8 @@ export function Index() {
                 />
               </svg>
             </a>
-
-            <Link href="/blog" shallow={false}>
-            <a
-              // href="https://localhost:4200"
+             <a
+              href="https://nxplaybook.com/?utm_source=nx-project"
               target="_blank"
               rel="noreferrer"
               className="list-item-link"
@@ -239,10 +234,9 @@ export function Index() {
                 />
               </svg>
             </a>
-            </Link>
-             
           </div>
-          <div id="other-links">
+          {/* separation dkt sini */}
+          {/* <div id="other-links">
             <a
               id="nx-console"
               className="button-pill rounded shadow"
@@ -319,7 +313,7 @@ export function Index() {
                 <span> Love Nx? Give us a star! </span>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div id="commands" className="rounded shadow">
